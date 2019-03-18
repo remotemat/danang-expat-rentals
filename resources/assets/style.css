@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+    position: absolute;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 50vh;
+}
+
+nav ul {
+   background: #3D04F2;
+    padding-right: 30px;
+    box-shadow: 0 1px 5px black;
+    border-bottom-left-radius: 20%;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+     font-family: 'Roboto', cursive;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon-bar {
+   background-color:  white;
+   padding: 2px;
+}
+
+.inside-banner{
+    float: none;
+ height: 100vh;
+    width: 100%;
+  background-image: url(beachthree.png);
+      background-size: 100% 100%;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+     z-index: 900;
+    
+}
+
+#landing-title {
+     font-family: 'Roboto', cursive;
+    font-size: 80px;
+    position: absolute;
+    color: white;
+   left: 7%;
+    top:  15%;
+    text-align: left;
+    margin: auto;
+    height: 60vh;
+}
+
+
+#landing-subtitle {
+      font-family: 'Roboto Condensed', sans-serif;
+     position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+      top:  28%;
+    left: 7%;
+    margin: auto;
+    visibility: visible;
+}
+
+
+#explore-us {
+    font-family: 'Roboto Condensed', sans-serif;
+     position: absolute;
+    left: 50%;
+    bottom:  25%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 1000;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #16a085;
+    background: #3D04F2;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  width: 155px;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  box-shadow: 0 1px 5px black;
+   border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+
+#explore-us:hover {
+  background: white;
+  box-shadow: 0 1px 5px #3D04F2;
+  color: #3D04F2;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+
+
+img.bg {
+    margin: 0;
+			/* Set rules to fill background */
+			min-height: 100%;
+			min-width: 1024px;
+			
+			/* Set up proportionate scaling */
+			width: 100%;
+			height: 100vh;
+			
+			/* Set up positioning */
+			position:fixed;
+			top: 0;
+			left: 0px;
+            z-index: -1;
+		}
+
+#listings-row {
+    margin-top: 12vh;
+    height: 100%;
+    max-width: 83%;
+    
+}
+
+.image-holder img {
+ width: 100%;
+ height: 100%;    
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.46);
+}
+
+.image-holder {
+    position: relative;
+    left: 20vw; 
+    height: 430px;
+ 
+}
+
+.property-detail {
+   position: relative;
+    top: -8vh;
+    left: 20vw; 
+   width: 79%;
+    padding-bottom: 20px;
+  background: white;
+    opacity: 0.9;
+    text-align: center;
+ 	border-bottom: 0 none;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.46);
+    color: #3D04F2;
+     font-family: 'Roboto Condensed', sans-serif;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 60%;
+}
+
+#property-image {
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+}
+
+#view-details {
+     font-family: 'Roboto Condensed', sans-serif;
+text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+    background: #3D04F2;
+  	border-top: 2px solid black;
+  border: none;
+  color: #fff;
+  padding: 6px;
+  transition-duration: 0.4s;
+  overflow: hidden;
+ 	border-bottom: 0 none;
+	box-shadow: 0 1px 5px black;
+  border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+  
+#view-details:hover {
+  background: white;
+  box-shadow: 0 1px 5px #3D04F2;
+  color: #3D04F2;
+  border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+.footer {
+    width: 100vw;
+    background-color: #E5E5E5;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+    position:relative;
+    bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.property-listing {
+    background-image: url(group-three.png);
+    font-family: 'Roboto Condensed', sans-serif;  
+    height: 100%;
+    width: 100%;
+}
+
+.property-img {
+    height: 100%;
+    width: 100%; 
+}
+
+.img-responsive {
+   margin: 30px;
+    position: relative;
+    right: 25%;
+    bottom: 10vh;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.46);
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-title {
+    font-family: 'Roboto', cursive;
+    font-size: 80px;
+    position: absolute;
+    color: white;
+   left: 6%;
+   top: 10vh;
+    text-align: left;
+    margin: 20px;
+    height: 15vh;
+}
+
+.about-title {
+    font-family: 'Roboto', cursive;
+    font-size: 80px;
+    position: relative;
+    color: white;
+   left: 6%;
+   top: 10vh;
+    text-align: left;
+    margin: 20px;
+    height: 15vh;
+}
+ 
+.contact-banner {
+ height: 150vh;
+    width: 100%;
+  background-image: url(Da-Nang-Vietnam.jpg);
+      background-size: 100% 100%;
+    vertical-align: middle;
+    position: relative;
+}
+
+#contact-form {
+    position: absolute;
+    top: 35vh;
+    padding-top: 40px;
+    height: 110vh;
+    width: 85%;
+}
+
+#about-us {
+    font-family: 'Roboto', cursive;
+    font-size: 20px;
+    position: relative;
+    color: white;
+    text-align: left;
+    margin: auto;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+#about-img {
+    position: relative;
+    top: 10vh;
+    left: 30vw;
+    z-index: 1000;
+   max-width: 600px;
+    height: 100%;
+}
+
+#about-txt {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    z-index: 900;
+     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.46);
+    border-radius: 10px;
+    height: 100%;
+}
+
+@media screen and (max-width: 850px) {
+     #listings-row {
+    max-width: 90%;
+}
+    #landing-subtitle {
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    #listings-row {
+    max-width: 90%;
+}
+   .contact-title {
+   height: 35vh;    
+}
+}
+
